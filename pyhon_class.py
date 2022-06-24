@@ -4,7 +4,7 @@ class Cmt(): # Creating Class
     Roll = ""
 
 
-badsha = Cmt()
+badsha = Cmt()  # ----> Creating object / Object Name badsha
 
 badsha.Name = "Mohammed Badsha"
 badsha.Roll = 483017
