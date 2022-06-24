@@ -1,7 +1,22 @@
+#---->using methods in class to easy progra
 
-#---->using methods in class to easy program
+class moniruzzaman:      #--- information of moniruzzaman bhai
+    Name = ""
+    RoLL = ""
 
-class Studentlist:
+    def setline(self,Name,Roll):
+        self.Name = Name
+        self.RoLL = Roll
+
+    def Myinfo(self):
+        print(f"Name :{mono.Name} \n Roll :{mono.RoLL}")
+
+
+mono = moniruzzaman()
+mono.setline("Moniruzzaman",483029)
+mono.Myinfo()
+
+class Studentlist:    # ----> information of durjoy bhai
     Student_Name = ""
     Student_Roll = ""
     Student_Dept = ""
@@ -21,9 +36,7 @@ durjoy.set_value("Durjoy",1024,"ME IN DUET")
 durjoy.information()
 
 
-
-"""
-class methods:
+class methods:      # --- information of jibon and author!
     Name = ""
     Roll = ""
 
@@ -42,5 +55,4 @@ badsha.myfunc()
 jibon = methods()
 jibon.set_value("Mohammed_Jibon",483021)
 jibon.myfunc()
-"""
 
