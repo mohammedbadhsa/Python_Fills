@@ -5,7 +5,7 @@ class class2:
     Roll = ""
     GPA = ""
 
-    def __init__(self,Name,Roll,CGPA):
+    def __init__(self,Name,Roll,CGPA):  # __init__ use for create a constructor methods !!
         self.Name = Name
         self.Roll = Roll
         self.GPA = CGPA
