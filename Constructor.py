@@ -34,3 +34,18 @@ class class1:
 durjoy = class1("Durjoy Bhomik",302,3.88)
 durjoy.runvalue()
 
+
+class constuctor:
+    name = ""
+    roll = ""
+
+    def __init__(self,Name,Roll):
+        self.name = Name
+        self.roll = Roll
+    def call(self):
+        print(f"Student Name :{self.name}\n Student Roll:{self.roll}")
+badsha = constuctor("Mohammed Badsha",483017)
+badsha.call()
+
+
+
