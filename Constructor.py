@@ -14,8 +14,8 @@ class class2:
         print(f"Name : {self.Name}\nRoll : {self.Roll}\nCGPA : {self.GPA}")
 
 
-hamim = class2("Mohammad Hamim",16321,4.00)
-hamim.printout()
+#hamim = class2("Mohammad Hamim",16321,4.00)
+#hamim.printout()
 
 
 class class1:
@@ -29,10 +29,10 @@ class class1:
         self.GPA = GPA
 
     def runvalue(self):
-        print(f"Student Name : {self.Name} \nStudent Roll : {self.Roll} \nStudent GPA : {self.GPA}")
+        print(f"Student Name :{self.Name}\nStudent Roll : {self.Roll} nStudent GPA : {self.GPA}")
 
-durjoy = class1("Durjoy Bhomik",302,3.88)
-durjoy.runvalue()
+#durjoy = class1("Durjoy Bhomik",302,3.88)
+#durjoy.runvalue()
 
 
 class constuctor:
@@ -44,8 +44,30 @@ class constuctor:
         self.roll = Roll
     def call(self):
         print(f"Student Name :{self.name}\n Student Roll:{self.roll}")
-badsha = constuctor("Mohammed Badsha",483017)
-badsha.call()
+#badsha = constuctor("Mohammed Badsha",483017)
+#badsha.call()
+
+
+class info:
+    Name = ""
+    Roll = ""
+    Deapt = ""
+
+
+    def __init__(self,name,roll,deapt):
+
+        self.Name = name
+        self.Roll = roll
+        self.Deapt = deapt
+
+
+    def display(self):
+        print(f" Student Name :{self.Name}\n Student Roll :{self.Roll}\n Student Deapartmetn :{self.Deapt}")
+
+rafin = info("Moahmmed Nafiz","17265","RAC")
+rafin.display()
+
+
 
 
 

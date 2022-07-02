@@ -1,7 +1,8 @@
+"""
 mylist1 = [1045231,5,6,66,30,405,5903,]
 sub = ["sequential logic circuit","java","opearatin system","accounting theoury ","subline secqurity systeml"]
 list = mylist1 , sub
-#print(sub[0:3])
+print(sub[0:3])
 #print(sub[-3])
 #print("java" in sub)
 #print("c++" not in sub)
@@ -16,4 +17,15 @@ list = mylist1 , sub
 #sub.clear()  --->use for clear on charater on list .
 #sub = mylist1.copy()  --->use for copy full lsit.
 #print(sub.index("java")) --->use for find the index number
-print(mylist1)
+#print(mylist1)
+
+list = ["badsha","hamim","jibon","moniruzzaman","Durjoy bhai","hamim"]
+
+#print(list)
+#print(list[3])
+list.append("abdullah")
+#print(list[5])
+
+x = list.count("hamim") # count(_) koy value ase oi namer oita dekar jonno count use kora hoy ar ki !
+print(x)
+"""

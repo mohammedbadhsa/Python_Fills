@@ -7,8 +7,11 @@ class mobile:
 class samsung(mobile):
     def __init__(self):
         super().__init__()
-        print("Here i am bro ")
+        print("Here i am bro  ")
 
+    def __init__(self):
+        super().__init__()
+        print("anther methods")
 
-s = samsung()
+s1 = samsung()
 
