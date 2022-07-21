@@ -15,4 +15,10 @@ def my_area(a,b,c): # ---. Create my own module in python;
     else:
         print("The Roots are imeginary")
 
-#my_area(10,60,11)
+#my_area(10,60,30)
+
+def mysum(a,b):
+    sum = a+b
+    print(sum)
+
+mysum(60,400)
